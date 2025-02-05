@@ -1,0 +1,4 @@
+/node_modules
+*.json
+eslint.config.js
+vit.config.js
