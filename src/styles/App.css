@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+
+:root{
+  /* Global styles */
+  --text-color:#f1f2f4;
+  --background:#fddc68;
+  --background-games:#CCB02B;
+  --background-simulations:#6BF2DD;
+}
