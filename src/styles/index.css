@@ -10,19 +10,18 @@ body{
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
-  border-radius: 3px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #051923;
+  background: #063427;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #006494;
+  background: #068126;
   border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #2578bc;
+  background: #2db648;
 }
