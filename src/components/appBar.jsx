@@ -14,6 +14,7 @@ export function AppBar() {
           </Link>
         </div>
       </div>
+      <div className="bg-[var(--background)] pt-10"></div>
     </>
   );
 }
