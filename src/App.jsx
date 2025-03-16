@@ -1,4 +1,4 @@
-import { Route, Routes, BrowserRouter } from "react-router-dom"
+import { HashRouter as Router, Route, Routes } from "react-router"
 import './styles/App.css'
 // Main views
 import { MainPage } from './views/mainPage'
@@ -16,7 +16,7 @@ import { PendulumPage } from './views/simulations/Pendulum'
 export default function App() {
   return (
     <>
-      <BrowserRouter>
+      <Router>
         <Routes>
           <Route index element={<MainPage/>}/>
           <Route path="/games" element={<GamePage/>}/>
@@ -28,7 +28,7 @@ export default function App() {
           <Route path="/simulations/moveSquare" element={<MoveSquarePage/>}/>
           <Route path="/simulations/pendulum" element={<PendulumPage/>}/>
         </Routes>
-      </BrowserRouter>
+      </Router>
     </>
   )
 }

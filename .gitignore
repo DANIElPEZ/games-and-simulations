@@ -1,4 +1,4 @@
 /node_modules
-*.json
+package-lock.json
 eslint.config.js
 vit.config.js
